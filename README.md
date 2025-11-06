@@ -123,10 +123,6 @@ To test with different word pairs:
 - Python 3.6 or higher
 - tkinter (for GUI version - usually included with Python)
 
-## Compilation and Testing Instructions
-
-This program is written in Python, which is an interpreted language and does not require compilation. To run and test the program, you will need Python 3.6 or higher installed on your system. Python typically comes with tkinter pre-installed, which is required for the GUI version.
-
 ### Setting Up Your Environment:
 
 **For Windows:**
