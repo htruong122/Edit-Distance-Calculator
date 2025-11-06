@@ -179,17 +179,6 @@ This program is written in Python, which is an interpreted language and does not
    ```
    A small window should appear if tkinter is properly installed.
 
-**For macOS:**
-1. Python 3 usually comes pre-installed. Check your version:
-   ```bash
-   python3 --version
-   ```
-2. If not installed, download from [python.org](https://www.python.org/downloads/) or install via Homebrew:
-   ```bash
-   brew install python3
-   ```
-3. tkinter is typically included with Python on macOS.
-
 **For Linux (Ubuntu/Debian):**
 1. Install Python 3 and tkinter:
    ```bash
@@ -203,7 +192,7 @@ This program is written in Python, which is an interpreted language and does not
 
 ### Running the Program:
 
-**Option 1: GUI Version (Recommended)**
+**Option 1: GUI Version**
 1. Open a terminal/command prompt
 2. Navigate to the directory containing `edit_distance_gui.py`
 3. Run the command:
@@ -216,18 +205,6 @@ This program is written in Python, which is an interpreted language and does not
    ```
 4. A graphical window will appear. Enter your two words and click "Calculate" or press Enter.
 
-**Option 2: Command-Line Version**
-1. Open a terminal/command prompt
-2. Navigate to the directory containing `edit_distance_1.py`
-3. Run the command:
-   ```bash
-   python edit_distance_1.py
-   ```
-   or on some systems:
-   ```bash
-   python3 edit_distance_1.py
-   ```
-4. Follow the on-screen prompts to enter your words.
 
 ### Testing the Program:
 
@@ -253,19 +230,6 @@ To verify the program works correctly, test it with these known examples:
 - Completely different words of different lengths
 - Single character words
 - Words with mixed case (program converts to lowercase automatically)
-
-### Troubleshooting:
-
-**Problem:** "python is not recognized as an internal or external command"
-- **Solution:** Python is not in your system PATH. Try using `py` instead of `python`, or reinstall Python with "Add to PATH" checked.
-
-**Problem:** "No module named 'tkinter'" when running GUI version
-- **Solution (Windows):** Reinstall Python, ensuring "tcl/tk and IDLE" is checked during installation
-- **Solution (Linux):** Install tkinter with `sudo apt-get install python3-tk`
-- **Solution (macOS):** tkinter should be included; if not, reinstall Python from python.org
-
-**Problem:** GUI window doesn't appear
-- **Solution:** Try running from terminal/command prompt instead of an IDE, or check if your system supports GUI applications
 
 ### Development Environment:
 
