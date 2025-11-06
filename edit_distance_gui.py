@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Edit Distance Calculator with GUI
 Calculates the edit distance (Levenshtein distance) between two words
