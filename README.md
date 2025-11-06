@@ -11,8 +11,6 @@ Programming Assignment (due Nov 21): Write a program to calculate the edit dista
 - Calculates edit distance using dynamic programming
 - Displays the complete calculation matrix with separators
 - Shows an optimal alignment demonstrating the edit operations
-- Available in two versions:
-  - **Command-line interface** (edit_distance_1.py)
   - **Graphical user interface** (edit_distance_gui.py)
 
 ## How to Run
