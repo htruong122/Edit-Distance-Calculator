@@ -32,16 +32,8 @@ A window will pop up with:
 - Scrollable results area showing the matrix and alignment
 - Press Enter key in either input field to calculate
 
-The program will prompt you to enter two words:
-```
-Welcome to Helen's Edit Distance
-============================================================
+[add image]
 
-Please input two words for the edit distance:
-
-The first word:  evaluation
-The second word: elution
-```
 
 ## Example Output
 
