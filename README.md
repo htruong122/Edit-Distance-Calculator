@@ -32,7 +32,7 @@ A window will pop up looking like this:
 - Scrollable results area showing the matrix and alignment
 - Press Enter key in either input field to calculate
 
-[add image]
+![pop up image](ex_img/popup_screen.png)
 
 
 ## Example Output
