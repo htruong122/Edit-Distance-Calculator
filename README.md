@@ -35,7 +35,7 @@ A window will pop up looking like this:
 ![pop up image](ex_img/popup_screen.png)
 
 
-## Example Output
+## Example Output Inside Result Box
 
 For the words "evaluation" and "elution":
 
