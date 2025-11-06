@@ -32,14 +32,6 @@ A window will pop up with:
 - Scrollable results area showing the matrix and alignment
 - Press Enter key in either input field to calculate
 
-### Command-Line Version
-
-Run the command-line version:
-
-```bash
-python edit_distance_1.py
-```
-
 The program will prompt you to enter two words:
 ```
 Welcome to Helen's Edit Distance
