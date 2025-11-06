@@ -113,7 +113,7 @@ def traceback_alignment(matrix, word1, word2):
 class EditDistanceGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Helen Truong - Edit Distance Calculator")
+        self.root.title("Helen - Edit Distance Calculator")
         self.root.geometry("700x600")
         
         # Configure style
