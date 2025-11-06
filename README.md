@@ -25,7 +25,7 @@ Simply run the GUI version from the command line:
 python edit_distance_gui.py
 ```
 
-A window will pop up with:
+A window will pop up looking like this:
 - Input fields for two words
 - "Calculate" button to compute edit distance
 - "Clear" button to reset all fields
