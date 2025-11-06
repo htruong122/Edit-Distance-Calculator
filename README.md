@@ -30,7 +30,6 @@ A window will pop up looking like this:
 - "Calculate" button to compute edit distance
 - "Clear" button to reset all fields
 - Scrollable results area showing the matrix and alignment
-- Press Enter key in either input field to calculate
 
 ![pop up image](ex_img/popup_screen.png)
 
@@ -108,17 +107,6 @@ In the example above:
 - Input is case-insensitive (converted to lowercase)
 - Non-alphabetic characters are automatically filtered out
 
-## GUI Features
-
-The graphical version (edit_distance_gui.py) includes:
-- **Clean, modern interface** with Verdana font styling
-- **Input validation** with error messages for empty inputs
-- **Keyboard shortcuts** - Press Enter to calculate
-- **Clear button** to reset all fields and start over
-- **Scrollable results** for viewing large matrices
-- **Formatted output** with separator lines for better readability
-- **Monospace font** (Courier) for matrix display to ensure proper alignment
-
 ## Testing
 
 To test with different word pairs:
@@ -130,29 +118,10 @@ To test with different word pairs:
 4. Click "Calculate" button (or press Enter)
 5. View results in the scrollable area below
 
-### Using Command-Line:
-
-```bash
-# Test 1: evaluation and elution
-python edit_distance_1.py
-# Enter: evaluation, elution
-# Expected edit distance: 3
-
-# Test 2: kitten and sitting  
-python edit_distance_1.py
-# Enter: kitten, sitting
-# Expected edit distance: 3
-
-# Test 3: saturday and sunday
-python edit_distance_1.py
-# Enter: saturday, sunday
-# Expected edit distance: 3
-```
 
 ## Files Included
 
-- **edit_distance_1.py** - Command-line version with terminal interface
-- **edit_distance_gui.py** - GUI version with graphical interface (Recommended)
+- **edit_distance_gui.py** - GUI version with graphical interface 
 - **README.md** - This documentation file
 
 ## Requirements
@@ -179,20 +148,8 @@ This program is written in Python, which is an interpreted language and does not
    ```
    A small window should appear if tkinter is properly installed.
 
-**For Linux (Ubuntu/Debian):**
-1. Install Python 3 and tkinter:
-   ```bash
-   sudo apt-get update
-   sudo apt-get install python3 python3-tk
-   ```
-2. Verify installation:
-   ```bash
-   python3 --version
-   ```
-
 ### Running the Program:
 
-**Option 1: GUI Version**
 1. Open a terminal/command prompt
 2. Navigate to the directory containing `edit_distance_gui.py`
 3. Run the command:
