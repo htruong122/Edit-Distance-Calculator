@@ -67,33 +67,6 @@ evaluation
 e__lu_tion
 ```
 
-## How It Works
-
-### Edit Distance Algorithm
-
-The program uses dynamic programming to calculate the minimum number of single-character edits (insertions, deletions, or substitutions) needed to transform one word into another.
-
-The matrix is built as follows:
-- Rows represent characters from the first word (plus an empty string at row 0)
-- Columns represent characters from the second word (plus an empty string at column 0)
-- Each cell (i, j) contains the edit distance between the first i characters of word1 and the first j characters of word2
-
-### Alignment
-
-The alignment shows how the two words correspond to each other:
-- Characters that match are aligned
-- Underscores (_) represent insertions or deletions
-- Mismatched characters show substitutions
-
-In the example above:
-- "evaluation" → "e__lu_tion" means:
-  - Keep 'e'
-  - Delete 'v' and 'a' (shown as underscores in word2)
-  - Keep 'l', 'u'
-  - Delete 'a' (shown as underscore in word2)
-  - Keep 't', 'i', 'o', 'n'
-- Total operations: 3 deletions = edit distance of 3
-
 ## Implementation Details
 
 - Uses O(mn) space and time complexity where m and n are the lengths of the two words
@@ -151,32 +124,6 @@ To test with different word pairs:
    python3 edit_distance_gui.py
    ```
 4. A graphical window will appear. Enter your two words and click "Calculate" or press Enter.
-
-
-### Testing the Program:
-
-To verify the program works correctly, test it with these known examples:
-
-**Test Case 1:** evaluation → elution
-- Expected edit distance: 3
-- Input the words "evaluation" and "elution"
-- The program should display a matrix and show edit distance of 3
-- Alignment should show: `evaluation` and `e__lu_tion`
-
-**Test Case 2:** kitten → sitting
-- Expected edit distance: 3
-- Input the words "kitten" and "sitting"
-- The alignment should show the transformation with underscores for gaps
-
-**Test Case 3:** saturday → sunday
-- Expected edit distance: 3
-- Tests substitution and deletion operations
-
-**Edge Cases to Test:**
-- Identical words (e.g., "hello" and "hello") - should give edit distance 0
-- Completely different words of different lengths
-- Single character words
-- Words with mixed case (program converts to lowercase automatically)
 
 ### Development Environment:
 
