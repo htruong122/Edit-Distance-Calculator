@@ -2,9 +2,15 @@
 
 A Python program that calculates the edit distance (Levenshtein distance) between two words and displays the calculation matrix and alignment. Available in both command-line and graphical user interface (GUI) versions.
 
-## Assignment Requirements
+### Development Environment:
 
-Programming Assignment (due Nov 21): Write a program to calculate the edit distance between two words and output both the matrix of distance calculation and an alignment that demonstrates the result.
+This program was developed and tested using:
+- Python 3.8+
+- tkinter 8.6+
+- Windows 11, but is cross-platform compatible
+
+No additional external libraries or packages are required beyond the Python standard library.
+
 
 ## Features
 
@@ -74,18 +80,6 @@ e__lu_tion
 - Input is case-insensitive (converted to lowercase)
 - Non-alphabetic characters are automatically filtered out
 
-## Testing
-
-To test with different word pairs:
-
-### Using GUI:
-1. Run `python edit_distance_gui.py`
-2. Type first word in the "The first word:" field
-3. Type second word in the "The second word:" field
-4. Click "Calculate" button (or press Enter)
-5. View results in the scrollable area below
-
-
 ## Files Included
 
 - **edit_distance_gui.py** - GUI version with graphical interface 
@@ -124,15 +118,6 @@ To test with different word pairs:
    python3 edit_distance_gui.py
    ```
 4. A graphical window will appear. Enter your two words and click "Calculate" or press Enter.
-
-### Development Environment:
-
-This program was developed and tested using:
-- Python 3.8+
-- tkinter 8.6+
-- Windows 11, but is cross-platform compatible
-
-No additional external libraries or packages are required beyond the Python standard library.
 
 ## Author
 
