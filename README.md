@@ -2,6 +2,11 @@
 
 A Python program that calculates the edit distance (Levenshtein distance) between two words and displays the calculation matrix and alignment. Available in both command-line and graphical user interface (GUI) versions.
 
+## Requirements
+
+- Python 3.6 or higher
+- tkinter (for GUI version - usually included with Python)
+
 ### Development Environment:
 
 This program was developed and tested using:
@@ -11,6 +16,20 @@ This program was developed and tested using:
 
 No additional external libraries or packages are required beyond the Python standard library.
 
+### Setting Up Your Environment:
+
+**For Windows:**
+1. Download and install Python from [python.org](https://www.python.org/downloads/)
+2. During installation, make sure to check "Add Python to PATH"
+3. Verify installation by opening Command Prompt (cmd) and typing:
+   ```bash
+   python --version
+   ```
+4. tkinter should be included by default. To verify, run:
+   ```bash
+   python -m tkinter
+   ```
+   A small window should appear if tkinter is properly installed.
 
 ## Features
 
@@ -84,26 +103,6 @@ e__lu_tion
 
 - **edit_distance_gui.py** - GUI version with graphical interface 
 - **README.md** - This documentation file
-
-## Requirements
-
-- Python 3.6 or higher
-- tkinter (for GUI version - usually included with Python)
-
-### Setting Up Your Environment:
-
-**For Windows:**
-1. Download and install Python from [python.org](https://www.python.org/downloads/)
-2. During installation, make sure to check "Add Python to PATH"
-3. Verify installation by opening Command Prompt (cmd) and typing:
-   ```bash
-   python --version
-   ```
-4. tkinter should be included by default. To verify, run:
-   ```bash
-   python -m tkinter
-   ```
-   A small window should appear if tkinter is properly installed.
 
 ### Running the Program:
 
