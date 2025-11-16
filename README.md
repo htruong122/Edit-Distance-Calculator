@@ -45,11 +45,6 @@ python edit_distance_gui.py
 ```
 
 A window will pop up looking like this:
-- Input fields for two words
-- "Calculate" button to compute edit distance
-- "Clear" button to reset all fields
-- Scrollable results area showing the matrix and alignment
-
 ![pop up image](ex_img/popup_screen.png)
 
 
@@ -91,13 +86,6 @@ Alignment is:
 evaluation
 e__lu_tion
 ```
-
-## Implementation Details
-
-- Uses O(mn) space and time complexity where m and n are the lengths of the two words
-- Traceback algorithm finds an optimal alignment path through the matrix
-- Input is case-insensitive (converted to lowercase)
-- Non-alphabetic characters are automatically filtered out
 
 ## Files Included
 
